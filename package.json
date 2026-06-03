@@ -1,0 +1,19 @@
+{
+  "name": "azulejo-consumer-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ptlm-azulejo/button": "file:../ptlm-gtdp-azulejo/packages/Button",
+    "@ptlm-azulejo/themes": "file:../ptlm-gtdp-azulejo/packages/themes",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  }
+}
