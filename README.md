@@ -10,8 +10,8 @@ the components re-theme at runtime.
 
 ## What it shows
 
-- Importing the theme (`@ptlm-azulejo/themes/base.css` + a brand preset) and a
-  component's styles (`@ptlm-azulejo/button/style.css`).
+- Importing a brand preset (`@ptlm-azulejo/themes/presets/<brand>.css`, which
+  bundles `base.css`) and a component's styles (`@ptlm-azulejo/button/style.css`).
 - Selecting the **brand** (Leroy Merlin / Adeo) with a class on `<html>`
   (`.preset-lm` / `.preset-adeo`) and **light/dark** with `data-theme`.
 - A `<select>`-driven toolbar that switches brand/mode live, so the same
